@@ -1,0 +1,31 @@
+/* src/App.css */
+.app-container {
+  max-width: 600px;
+  margin: 200px;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.message-container {
+  margin-bottom: 20px;
+}
+
+.console-container {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.log-box {
+  border: 1px solid #eee;
+  padding: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+}
